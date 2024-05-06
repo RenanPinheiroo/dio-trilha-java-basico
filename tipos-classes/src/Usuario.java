@@ -12,5 +12,10 @@ public class Usuario {
 
         smartTv.aumentarVolume();
         System.out.println("O novo volume é: " + smartTv.volume);
+
+
+        smartTv.mudarCanal(13);
+            System.out.println("O Canal foi mudado para o Canal " + smartTv.canal);
+
     }
 }
