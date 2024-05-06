@@ -9,5 +9,8 @@ public class Usuario {
         smartTv.ligar ();
 
         System.out.println("A Tv está ligada? " + smartTv.ligada);
+
+        smartTv.aumentarVolume();
+        System.out.println("O novo volume é: " + smartTv.volume);
     }
 }
